@@ -1,8 +1,12 @@
 <snippet>
 	<content><![CDATA[
 <?php
-	${1:}
-?>
+/**BryO™ is a vanilla, evolving open-source framework for developing websites, applications, and APIs using web technology;
+ * Creator: Anthony O. Osawere (AO™) - @iamodao - www.osawere.com  © 2020 | Apache License
+ * ============================================================================================
+ * ${1:INDEX} ~ ${2:Default File} • DEPENDENCY»
+ */
+${3:}
 ]]></content>
 	<tabTrigger>AO-PHP</tabTrigger>
 	<description>PHP Block Snippet by AO™</description>
