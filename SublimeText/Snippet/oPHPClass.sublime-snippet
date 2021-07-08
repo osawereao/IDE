@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**BryO™ is a vanilla, evolving open-source framework for developing websites, applications, and APIs using web technology;
+ * Creator: Anthony O. Osawere (AO™) - @iamodao - www.osawere.com  © 2021 | Apache License
+ * ============================================================================================
+ * ${1:Class}X ~ ${2:${1:Class} utility} • DEPENDENCY»
+ */
+class ${1:Class}X {
+	${3:private static \$instance;
+
+
+
+	#CONSTRUCT • Prevents multiple instantiation
+	private function __construct()\{return;\}
+
+
+
+	#CLONE • Prevent duplicate
+	private function __clone()\{return;\}
+
+
+
+	#INSTANTIATE • Return fresh instance
+	public static function instantiate()\{
+		if(is_null(self::\$instance))\{
+			self::\$instance = new self();
+		\}
+		return self::\$instance;
+	\}
+
+
+
+	}${4:#oEXIT • Report error & exit program
+	private static function quit(\$method='', \$message='', \$extra='')\{
+		if(!empty(\$message))\{
+			return QuitX::perform('${1:Class}X', \$method, \$message, \$extra);
+		\}
+			return self::quit(\$method,'quit() failed', '$message is required');
+	\}}
+
+
+
+	#${5:METHOD • ${6:Description of method}}
+	public static function ${7:isMethod}(${8:}){
+	${9:}${10:return;}
+	}
+
+} // EndOfClass
+]]></content>
+	<tabTrigger>AO-PHP-CLASS</tabTrigger>
+	<description>AO PHP Class (Static) Block by AO™</description>
+</snippet>
