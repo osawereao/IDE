@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/User/AO/Theme/AO.tmTheme",
+	"theme": "Default Dark.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 10,
+	"reindent_on_save": ["css", "js", "html", "php", "inc"],
+}
