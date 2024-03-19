@@ -216,7 +216,7 @@
 	},
 	"tabnine.experimentalAutoImports": true,
 	"problems.showCurrentInStatus": true,
-	"php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.2.10-Win32-vs16-x64\\php.exe",
+	"php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.3.4-Win32-vs16-x64\\php.exe",
 	"php.validate.enable": true,
 	"php.problems.exclude": {
 		"**/_resource/": true
