@@ -1,0 +1,101 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+a",
+		"command": "editor.action.sortLinesAscending",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+z",
+		"command": "editor.action.sortLinesDescending",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+f",
+		"command": "editor.action.formatSelection",
+		"when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+f",
+		"command": "editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !editorHasSelection && !inCompositeEditor"
+	},
+	{
+		"key": "alt+u",
+		"command": "editor.action.transformToUppercase",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+l",
+		"command": "editor.action.transformToLowercase",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+c",
+		"command": "editor.action.transformToCamelcase",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+s",
+		"command": "editor.action.transformToSnakecase",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+t",
+		"command": "editor.action.transformToTitlecase",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+p",
+		"command": "editor.action.transformToPascalcase",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+k",
+		"command": "editor.action.transformToKebabcase",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+m",
+		"command": "editor.action.selectHighlights",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+e",
+		"command": "workbench.files.action.showActiveFileInExplorer"
+	},
+	{
+		"key": "alt+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "alt+i",
+		"command": "namespaceResolver.importAll",
+		"when": "editorTextFocus && !editorReadonly && !editorHasSelection"
+	},
+	{
+		"key": "alt+i",
+		"command": "namespaceResolver.import",
+		"when": "editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+backspace",
+		"command": "remove-empty-lines.inSelection",
+		"when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly && editorHasSelection"
+	},
+	{
+		"key": "alt+backspace",
+		"command": "remove-empty-lines.inDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !editorHasSelection && !inCompositeEditor"
+	},
+	{
+		"key": "alt+;",
+		"command": "auto-semicolon-vscode.position-insert-semicolon",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+v",
+		"command": "workbench.files.action.showActiveFileInExplorer",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+]
