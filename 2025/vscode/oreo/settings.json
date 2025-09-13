@@ -1,0 +1,134 @@
+{
+	"files.associations": {
+		"*.inc": "php",
+		"*.phtml": "php",
+		"*.blade.php": "blade"
+	},
+
+
+
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	// "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+	// "filesize.use24HourFormat": false,
+
+
+	"editor.autoIndentOnPaste": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorWidth": 1,
+	"editor.detectIndentation": false,
+	"editor.fontLigatures": true,
+	"editor.fontSize": 16,
+	"editor.fontWeight": "normal",
+	"editor.formatOnSave": false,
+	"editor.formatOnType": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.indentSize": "tabSize",
+	"editor.inlayHints.padding": true,
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.insertSpaces": false,
+	"editor.largeFileOptimizations": true,
+	"editor.letterSpacing": 0.4,
+	"editor.lineHeight": 20,
+	"editor.linkedEditing": true,
+	"editor.minimap.autohide": "mouseover",
+	"editor.minimap.enabled": false,
+	"editor.minimap.maxColumn": 24,
+	"editor.minimap.size": "fit",
+	"editor.mouseWheelZoom": true,
+	"editor.occurrencesHighlight": "singleFile",
+	"editor.scrollbar.horizontalScrollbarSize": 10,
+	"editor.scrollbar.verticalScrollbarSize": 10,
+	"editor.scrollBeyondLastColumn": 0,
+	"editor.scrollBeyondLastLine": false,
+	"editor.smoothScrolling": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.tabSize": 2,
+	"editor.unfoldOnClickAfterEndOfLine": true,
+
+	// "editor.wordWrap":  "on",
+	"explorer.autoReveal": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"html.format.indentInnerHtml": true,
+	// helium-icon
+	"helium-icon-theme.opacity": 0.8,
+	// ~ end/>
+	// font & zoom
+	"[Log]": {
+		"editor.fontSize": 12
+	},
+	"markdown.preview.fontSize": 12,
+	"terminal.integrated.mouseWheelZoom": true,
+	"editor.fontFamily": "'Cascadia Code', 'Fira Code', 'Inconsolata', monospace",
+	"debug.console.fontSize": 16,
+	// ~ end/>
+	"terminal.integrated.confirmOnExit": "always",
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.enableVisualBell": true,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.smoothScrolling": true,
+	// workbench
+	"workbench.colorCustomizations": {
+		"editorBracketPairGuide.activeBackground1": "#FFB86C",
+		"editorBracketPairGuide.activeBackground2": "#FF75B5",
+		"editorBracketPairGuide.activeBackground3": "#45A9F9",
+		"editorBracketPairGuide.activeBackground4": "#B084EB",
+		"editorBracketPairGuide.activeBackground5": "#E6E6E6",
+		"editorBracketPairGuide.activeBackground6": "#19f9d8",
+		"editorBracketPairGuide.background1": "#FFB86C",
+		"editorBracketPairGuide.background2": "#FF75B5",
+		"editorBracketPairGuide.background3": "#45A9F9",
+		"editorBracketPairGuide.background4": "#B084EB",
+		"editorBracketPairGuide.background5": "#E6E6E6",
+		"editorBracketPairGuide.background6": "#19f9d8",
+		"editor.background": "#0F141C", //#090C11
+		"activityBar.activeBackground": "#273952", //#23344A
+		"activityBar.background": "#151F2D", //#101723
+		"activityBar.border": "#2C415C", //1D2C3F
+		"activityBar.foreground": "#9AB9E1", //8FD400 (lemon green)
+		"statusBar.background": "#632CCA",
+		"statusBar.border": "#BDA1EE",
+		"statusBar.foreground": "#D9C9EB",
+		"statusBarItem.hoverBackground": "#211664",
+		"tab.activeBackground": "#0B1018",
+		"tab.activeBorderTop": "#8ED200",
+		"tab.activeForeground": "#8ED200",
+		"tab.hoverBackground": "#070A0F",
+		"tab.hoverBorder": "#9FEF00",
+		"tab.hoverForeground": "#9FEF00",
+		"tab.activeModifiedBorder": "#CBBBDE",
+		"tab.inactiveModifiedBorder": "#D076C7",
+		"terminal.background": "#101825",
+		"terminal.foreground": "#86a2ce",
+		"terminal.selectionBackground": "#4465a7",
+		"terminal.selectionForeground": "#34496b",
+		"terminal.inactiveSelectionBackground": "#4465a7",
+		"sideBar.background": "#0F161E", //151D28
+		"sideBar.border": "#2C415C", //203146
+	},
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editorLargeFileConfirmation": 20,
+	"workbench.iconTheme": "helium-icon-theme",
+	"workbench.list.multiSelectModifier": "alt",
+	"workbench.list.smoothScrolling": true,
+	"workbench.productIconTheme": "fluent-icons",
+	// ~ end/>
+	"namespaceResolver.autoSort": true,
+	"namespaceResolver.showMessageOnStatusBar": true,
+	"namespaceResolver.sortNatural": true,
+	"namespaceResolver.sortOnSave": false,
+	"php.executablePath": "C:\\laragon\\bin\\php\\php-8.4.10-Win32-vs17-x64\\php.exe",
+	"workbench.colorTheme": "Hack The Box",
+	"workbench.externalBrowser": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe",
+	"window.zoomPerWindow": false,
+}
