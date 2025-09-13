@@ -1,0 +1,170 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "ctrl+k ctrl+f",
+		"command": "-editor.action.formatSelection",
+		"when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+c",
+		"command": "editor.action.transformToCamelcase"
+	},
+	{
+		"key": "shift+k",
+		"command": "editor.action.transformToKebabcase"
+	},
+	{
+		"key": "shift+l",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "shift+s",
+		"command": "editor.action.transformToSnakecase"
+	},
+	{
+		"key": "shift+t",
+		"command": "editor.action.transformToTitlecase"
+	},
+	{
+		"key": "shift+u",
+		"command": "editor.action.transformToUppercase"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument.none",
+		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-notebook.formatCell",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+	},
+	{
+		"key": "alt+backspace",
+		"command": "remove-empty-lines.inDocument"
+	},
+	{
+		"key": "shift+alt+backspace",
+		"command": "remove-empty-lines.inSelection"
+	},
+	{
+		"key": "ctrl+alt+backspace",
+		"command": "remove-empty-lines.inDocument",
+		"args": 0
+	},
+	{
+		"key": "shift+backspace",
+		"command": "remove-empty-lines.inSelection",
+		"when": "editorHasSelection",
+		"args": 0
+	},
+	{
+		"key": "alt+f",
+		"command": "editor.action.formatDocument"
+	},
+	{
+		"key": "alt+m",
+		"command": "editor.action.formatDocument.multiple"
+	},
+	{
+		"key": "shift+f",
+		"command": "editor.action.formatSelection",
+		"when": "editorHasSelection",
+	},
+	{
+		"key": "shift+m",
+		"command": "editor.action.formatSelection.multiple",
+		"when": "editorHasSelection",
+	},
+	{
+		"key": "ctrl+shift+m",
+		"command": "editor.action.selectHighlights",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+shift+l",
+		"command": "-editor.action.selectHighlights",
+		"when": "editorFocus"
+	},
+	{
+		"key": "shift+w",
+		"command": "editor.emmet.action.wrapWithAbbreviation",
+		"when": "editorHasSelection && editorTextFocus",
+	},
+	{
+		"key": "alt+v",
+		"command": "workbench.files.action.showActiveFileInExplorer"
+	},
+
+	{ "key": "alt+;",
+		"command": "auto-semicolon-vscode.position-insert-semicolon",
+		"when": "editorTextFocus"
+	},
+	// { "key": "alt+; ;", "command": "auto-semicolon-vscode.position-insert-semicolon", "when": "editorTextFocus" },
+	// { "key": "alt+; alt+;", "command": "auto-semicolon-vscode.auto-insert-semicolon-fte", "when": "editorTextFocus" }
+	{
+		"key": "win+-",
+		"command": "workbench.files.action.collapseExplorerFolders"
+	},
+	{
+		"key": "ctrl+alt+oem_6",
+		"command": "editor.action.removeBrackets",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+backspace",
+		"command": "-editor.action.removeBrackets",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+i",
+		"command": "namespaceResolver.import",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "namespaceResolver.importAll",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+a",
+		"command": "editor.action.sortLinesAscending"
+	},
+	{
+		"key": "shift+d",
+		"command": "editor.action.sortLinesDescending"
+	},
+	{
+		"key": "shift+p",
+		"command": "pretty-php.format"
+	},
+	{
+		"key": "ctrl+c ctrl+p",
+		"command": "github.copilot.completions.toggle"
+	},
+	{
+		"key": "ctrl+c",
+		"command": "editor.action.clipboardCopyAction"
+	},
+	{
+		"key": "ctrl+insert",
+		"command": "-editor.action.clipboardCopyAction"
+	},
+	{
+		"key": "ctrl+v",
+		"command": "editor.action.clipboardPasteAction"
+	},
+	{
+		"key": "shift+insert",
+		"command": "-editor.action.clipboardPasteAction"
+	},
+]
