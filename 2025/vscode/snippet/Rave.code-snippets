@@ -1,0 +1,51 @@
+{
+	"Rave Library: PHP Class": {
+		"scope": "php",
+		"prefix": "rave",
+		"body": [
+			"//*** ${1:Rave} ~ ${2:class} » Rave™ Library © ${3:2025} ∞ OE2i™ • www.oe2i.com ∞ Apache License ***//",
+			"",
+			"${4:namespace Rave${5:\\Rave};}",
+			"",
+			"${6:use Rave\\Data\\StringX;}",
+			"",
+			"${7:class} ${1:Rave} {",
+			"// ◈ property",
+			"${8:${9:private} ${10:static }${11:bool }\\$init = false;}",
+			"",
+			"",
+			"",
+			"// ◈ === ${12:init} »",
+			"${9:private} ${10:static }function ${12:init}(${13:\\$var=null}){${14:return self::\\$init.\\$var;}}",
+			"",
+			"}//> end of ${2:class} ~ ${1:Rave}"
+		],
+		"description": "Rave Library: PHP Class"
+	},
+
+
+
+	"Rave: PHP Class": {
+		"scope": "php",
+		"prefix": "rave-php",
+		"body": [
+			"//*** ${1:Rave} - ${2:...} » Rave™ © ${3:2025} ∞ OE2i™ • www.oe2i.com ***//",
+			"",
+			"${4:namespace Rave${5:\\Rave};}",
+			"",
+			"${6:use Rave\\Data\\StringX;}",
+			"",
+			"${7:class} ${1:Rave} {",
+			"// • property",
+			"${8:${9:private} ${10:static }${11:bool }\\$init = false;}",
+			"",
+			"",
+			"",
+			"// • === ${12:init} »",
+			"${9:private} ${10:static }function ${12:init}(${13:\\$var=null}){${14:return self::\\$init.\\$var;}}",
+			"",
+			"} //*** end of ${7:class} - ${1:Rave}"
+		],
+		"description": "Rave: PHP Class"
+	}
+}

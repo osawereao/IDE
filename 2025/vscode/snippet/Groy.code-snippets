@@ -1,0 +1,90 @@
+{
+	"Groy Class": {
+		"scope": "php",
+		"prefix": [
+			"groy:php"
+		],
+		"body": [
+			"//*** ${1:Groy} ~ ${2:...} » Groy™ Library © ${3:$CURRENT_MONTH_NAME, $CURRENT_YEAR} ∞ OE2i™ • www.oe2i.com ∞ Apache License ***//",
+			"",
+			"${4:namespace ${5:Groy}${6:};}",
+			"",
+			"${7:use Groy\\Data;}",
+			"",
+			"${8:class} ${1:Groy} {",
+			"// ◇ property",
+			"${9:${10:private} ${11:static }${12:bool }\\$init = false;}",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"// ◇ === ${14:init} »",
+			"${13|public,private,protected|} ${11:static }function ${14:init}(${15:\\$groy=null}){${16:}}",
+			"",
+			"} //> end of ${8:class} ~ ${1:Groy}"
+		],
+		"description": "Groy PHP Class"
+	},
+	"Groy Method": {
+		"scope": "php",
+		"prefix": [
+			"groy:method"
+		],
+		"body": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"// ◇ === ${1:groy} »",
+			"${2|public,private,protected|} ${3:static }function ${1:groy}(${4:\\$groy ${5:=null}}){${6:}}",
+			"",
+		],
+		"description": "Groy Class Method"
+	},
+	"PHP Class": {
+		"scope": "php",
+		"prefix": [
+			"ao:class"
+		],
+		"body": [
+			"//*** ${1:Groy} - ${2:...} » © ${3:$CURRENT_MONTH_NAME, $CURRENT_YEAR} ∞ OE2i™ • www.oe2i.com ***//",
+			"",
+			"${4:namespace ${5:Groy}${6:};}",
+			"",
+			"${7:use Groy\\Data;}",
+			"",
+			"${8:class} ${1:Groy} {",
+			"// ◈ property",
+			"${9:${10:private} ${11:static }${12:bool }\\$init = false;}",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"// ◈ === ${14:init} »",
+			"${13|public,private,protected|} ${11:static }function ${14:init}(${15:\\$groy=null}){${16:}}",
+			"",
+			"} //> end of ${8:class} ~ ${1:Groy}"
+		],
+		"description": "PHP Class"
+	},
+	"PHP Method": {
+		"scope": "php",
+		"prefix": [
+			"ao:method"
+		],
+		"body": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"// ◈ === ${1:groy} »",
+			"${2|public,private,protected|} ${3:static }function ${1:groy}(${4:\\$groy ${5:=null}}){${6:}}",
+			"",
+		],
+		"description": "PHP Method"
+	}
+}

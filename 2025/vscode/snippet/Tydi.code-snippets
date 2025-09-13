@@ -1,0 +1,26 @@
+{
+	"Tydi-Laravel PHP Class": {
+		"scope": "php",
+		"prefix": "tydi-laravel-class",
+		"body": [
+			"//*** ${1:Tydi}${2:X} » Tydi™ Library for Laravel © 2024 ∞ AO™ • @osawereao • www.osawere.com ∞ Apache License ***//",
+			"${3:namespace App\\Zero${4:\\Spry};}",
+			"",
+			"",
+			"class ${1:Tydi}${2:X} {",
+			"",
+			"// • property",
+			"${5:private ${6:static }\\$tydi;}",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"// • ==== ${8:method} → ... » []",
+			"${7:private} ${6:static }function ${8:method}(${9:\\$var}){${10:}}",
+			"",
+			"}//> end of ${1:Tydi}${2:X}"
+		],
+		"description": "Tydi Library for Laravel - PHP Class"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"Fio Framework": {
+		"scope": "php",
+		"prefix": "fio",
+		"body": [
+			"//*** ${1:Fio} - ${2:...} » Fio™ © ${3:2025} ∞ OE2i™ • www.oe2i.com ∞ Apache License ***//",
+			"",
+			"${4:namespace ${5:Fio};}",
+			"",
+			"${6:use Fio\\Data;}",
+			"",
+			"${7:class} ${1:Fio} {",
+			"// • property",
+			"${8:${9:private} ${10:static }${11:bool }\\$init = false;}",
+			"",
+			"",
+			"// • === ${12:init} »",
+			"${9:private} ${10:static }function ${12:init}(${13:\\$fio=null}){${14:}}",
+			"",
+			"}"
+		],
+		"description": "Fio Framework"
+	}
+}
