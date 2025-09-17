@@ -1,0 +1,458 @@
+{
+	"auto-close-tag.fullMode": true,
+	"auto-close-tag.SublimeText3Mode": true,
+	"autoSemicolon.supportedLanguageId.autoMoveFormats": "go,python,pascal,delphi,bash,shellscript,bat,scala,kotlin,r,fsharp,php",
+	"autoSemicolon.supportedLanguageId.ignores.quotes": false,
+	"accessibility.signals.terminalBell": {
+		"sound": "on"
+	},
+	"better-comments.highlightPlainText": true,
+	"better-comments.tags": [
+		{
+			"tag": "◈",
+			"color": "#FFDEA6",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "◇",
+			"color": "#A8C6ED",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "•",
+			"color": "#9AF2E3",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "===",
+			"color": "#D9C1A5",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "...",
+			"color": "#D2B48C",
+			"bold": false,
+			"italic": true
+		},
+		{
+			"tag": "***",
+			"color": "#AFC0C0",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "!",
+			"color": "#FF0000",
+			"bold": false,
+			"italic": true
+		},
+		{
+			"tag": "*",
+			"color": "#FF9800",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "~",
+			"color": "#6DAB94",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "➝",
+			"color": "#9CE6D4",
+			"bold": false,
+			"italic": true
+		},
+		{
+			"tag": "→",
+			"color": "#cfc89a",
+			"bold": false,
+			"italic": true
+		},
+		{
+			"tag": ">",
+			"color": "#883E72",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "+",
+			"color": "#cea4ec",
+			"bold": false,
+			"italic": true
+		},
+		{
+			"tag": "-",
+			"strikethrough": true,
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "»",
+			"color": "#FF9BFF",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": false
+		},
+		{
+			"tag": "@",
+			"color": "#FFFFFF",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "IMPORTANT:",
+			"color": "#FFB5DF",
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "NOTE:",
+			"color": "#AFC0C0",
+			"bold": true,
+			"italic": true
+		}
+	],
+	"blade.newLine": false,
+	"blade.format.enable": true,
+	"bladeFormatter.format.indentInnerHtml": true,
+	"bladeFormatter.format.indentSize": 1,
+	"bladeFormatter.format.noMultipleEmptyLines": true,
+	"bladeFormatter.format.useTabs": true,
+	"bladeFormatter.format.wrapAttributesMinAttrs": 5,
+	"bladeFormatter.format.wrapLineLength": 2000,
+	"console-ninja.featureSet": "Community",
+	"cSpell.blockCheckingWhenLineLengthGreaterThan": 3000,
+	"cSpell.ignorePaths": [],
+	"cSpell.ignoreWords": [
+		"evoluted"
+	],
+	"cSpell.maxDuplicateProblems": 2,
+	"cSpell.maxNumberOfProblems": 10,
+	"cSpell.minWordLength": 5,
+	"cSpell.patterns": [],
+	"cSpell.userWords": [
+		"osawere",
+		"ucwords"
+	],
+	"debug.console.fontSize": 14,
+	"diffEditor.codeLens": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.detectIndentation": false,
+	"editor.fontFamily": "  'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "normal",
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.indentSize": "tabSize",
+	"editor.inlayHints.padding": true,
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.minimap.autohide": "mouseover",
+	"editor.minimap.enabled": false,
+	"editor.minimap.maxColumn": 40,
+	"editor.minimap.size": "fit",
+	"editor.mouseWheelZoom": true,
+	"editor.occurrencesHighlight": "singleFile",
+	"editor.scrollbar.horizontalScrollbarSize": 10,
+	"editor.scrollbar.verticalScrollbarSize": 10,
+	"editor.scrollBeyondLastColumn": 0,
+	"editor.scrollBeyondLastLine": false,
+	"editor.smoothScrolling": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.tabSize": 2,
+	"editor.unfoldOnClickAfterEndOfLine": true,
+	"emmet.triggerExpansionOnTab": true,
+	// "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"ez-semicolon.newline": true,
+	"explorer.autoReveal": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"files.associations": {
+		"*.inc": "php",
+		"*.phtml": "php",
+		"*.blade.php": "blade"
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/env/**": true,
+		"**/venv/**": true,
+		"env-*": true
+	},
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"filesize.displayInfoOnTheRightSideOfStatusBar": true,
+	"filesize.use24HourFormat": false,
+	"git.enableSmartCommit": true,
+	"git.openRepositoryInParentFolders": "never",
+	"git.postCommitCommand": "push",
+	"html.format.indentInnerHtml": true,
+	"html.format.templating": true,
+	"html.format.wrapLineLength": 20000,
+	"htmltagwrap.autoDeselectClosingTag": true,
+	"htmltagwrap.tag": "span",
+	// "intelephense.diagnostics.run": "onSave",
+	"intelephense.codeLens.implementations.enable": true,
+	"intelephense.codeLens.overrides.enable": true,
+	"intelephense.codeLens.parent.enable": true,
+	"intelephense.codeLens.references.enable": true,
+	"intelephense.codeLens.usages.enable": true,
+	"intelephense.files.maxSize": 100000,
+	"intelephense.files.exclude": [
+		"**/.git/**",
+		"**/.svn/**",
+		"**/.hg/**",
+		"**/CVS/**",
+		"**/.DS_Store/**",
+		"**/node_modules/**",
+		"**/bower_components/**",
+		"**/vendor/**/{Tests,tests}/**",
+		"**/.history/**",
+		"**/vendor/**/vendor/**",
+		"**/_DEV9/**"
+	],
+	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"namespaceResolver.autoSort": true,
+	"namespaceResolver.showMessageOnStatusBar": true,
+	"namespaceResolver.sortNatural": true,
+	"namespaceResolver.sortOnSave": false,
+	"outline.collapseItems": "alwaysCollapse",
+	"php.completion.showParameters": true,
+	"php.format.rules.alignConstants": false,
+	"php.inlayHints.parameters.suppressNameMatchingValue": true,
+	"php.linkedEditing.variables": false,
+	"php.problems.excludeGitIgnore": true,
+	"php.problems.scope": "opened",
+	"php.suggest.basic": true,
+	"php.validate.enable": true,
+	"php.version": "php",
+	"phpTools.suppressPremiumFeatures": true,
+	"prettier.useTabs": true,
+	"pretty-formatter.commentLine": true,
+	"pretty-php.formatting.alignment.alignComments": true,
+	"pretty-php.formatting.alignment.alignData": true,
+	"pretty-php.formatting.blankBeforeReturn": true,
+	"pretty-php.formatting.preserveOneLineStatements": true,
+	"problems.showCurrentInStatus": true,
+	"php.problems.exclude": {
+		"**/_DEV9/": true,
+		"**/vendor/": true,
+	},
+	"remove-empty-lines.allowedNumberOfEmptyLines": 0,
+	"scm.inputFontSize": 14,
+	"search.exclude": {
+		"**/bower_components": true,
+		"**/env": true,
+		"**/node_modules": true,
+		"**/venv": true
+	},
+	// "todo-tree.tree.scanAtStartup": false,
+	"todo-tree.highlights.enabled": true,
+	"todo-tree.highlights.defaultHighlight": {
+		"type": "text-and-comment",
+		"gutterIcon": true,
+		"fontWeight": "bold"
+	},
+	"todo-tree.general.tags": [
+		"TODO",
+		"BUG",
+		"FIX",
+		"FIXME",
+		"MARK",
+		"REVIEW"
+	],
+	"todo-tree.general.tagGroups": {
+		"TODO": [
+			"TODO",
+		],
+		"BUG": [
+			"BUG",
+			"FIX",
+			"FIXME"
+		],
+		"MARK": [
+			"MARK"
+		]
+	},
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"icon": "checklist",
+			"iconColour": "#EECC00",
+			"background": "#EECC00",
+			"foreground": "#000000",
+		},
+		"BUG": {
+			"icon": "bug",
+			"iconColour": "#FF0000",
+			"background": "#FF0000",
+			"foreground": "#FFFFFF"
+		},
+		"MARK": {
+			"icon": "bookmark"
+		},
+		"REVIEW": {
+			"icon": "alert",
+			"iconColour": "#AE00AE"
+		}
+	},
+	"todo-tree.tree.labelFormat": "${tag:uppercase} ${after} [${filename}]",
+	"todo-tree.tree.tooltipFormat": "${filename}: [${line}] in ${filepath}",
+	"terminal.integrated.env.windows": {},
+	"terminal.integrated.mouseWheelZoom": true,
+	"thunder-client.responseLimit": 20,
+	"thunder-client.saveRequestOnSend": false,
+	"typescript.implementationsCodeLens.enabled": true,
+	"typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true,
+	"workbench.colorTheme": "Hack The Box",
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.externalBrowser": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.list.smoothScrolling": true,
+	"workbench.localHistory.maxFileEntries": 100,
+	"workbench.localHistory.maxFileSize": 500,
+	"workbench.preferredDarkColorTheme": "Monokai",
+	"workbench.colorCustomizations": {
+		"editor.background": "#090C11",
+		"editorBracketPairGuide.activeBackground1": "#FFB86C",
+		"editorBracketPairGuide.activeBackground2": "#FF75B5",
+		"editorBracketPairGuide.activeBackground3": "#45A9F9",
+		"editorBracketPairGuide.activeBackground4": "#B084EB",
+		"editorBracketPairGuide.activeBackground5": "#E6E6E6",
+		"editorBracketPairGuide.activeBackground6": "#19f9d8",
+		"editorBracketPairGuide.background1": "#FFB86C",
+		"editorBracketPairGuide.background2": "#FF75B5",
+		"editorBracketPairGuide.background3": "#45A9F9",
+		"editorBracketPairGuide.background4": "#B084EB",
+		"editorBracketPairGuide.background5": "#E6E6E6",
+		"editorBracketPairGuide.background6": "#19f9d8",
+		"activityBar.activeBackground": "#23344A",
+		"activityBar.background": "#101723",
+		"activityBar.border": "#1D2C3F",
+		"activityBar.foreground": "#8FD400",
+		"sideBar.background": "#151D28",
+		"sideBar.border": "#203146",
+		// "statusBar.debuggingBackground": "#73CFA8",
+		// "statusBar.debuggingForeground": "#F2F2F2",
+		// "statusBar.noFolderBackground": "#73CFA8",
+		"statusBar.background": "#7336E4",
+		"statusBarItem.hoverBackground": "#211664",
+		"statusBar.border": "#C4A9F3",
+		"statusBar.foreground": "#E8D8FA",
+		"tab.activeBackground": "#0B1018",
+		"tab.activeBorderTop": "#8ED200",
+		"tab.activeForeground": "#8ED200",
+		"tab.hoverBackground": "#070A0F",
+		"tab.hoverForeground": "#9FEF00",
+		"tab.hoverBorder": "#9FEF00",
+		"terminal.background": "#101825",
+		"terminal.foreground": "#86a2ce",
+		"terminal.selectionBackground": "#4465a7",
+		"terminal.selectionForeground": "#34496b",
+		"terminal.inactiveSelectionBackground": "#4465a7"
+	},
+	"terminal.integrated.confirmOnExit": "always",
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.enableVisualBell": true,
+	"terminal.integrated.smoothScrolling": true,
+	"auto-rename-tag.activationOnLanguage": [
+		"php"
+	],
+	"[blade]": {
+		"editor.autoClosingBrackets": "always",
+		// "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+		"editor.defaultFormatter": "shufo.vscode-blade-formatter",
+	},
+	"[css]": {
+		// "editor.defaultFormatter": "vscode.css-language-features",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features",
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+	"[json][jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+		//  "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+		// "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+	},
+	"[postcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.zoomLevel": -1,
+	"git.untrackedChanges": "separate",
+	"php.executablePath": "C:\\laragon\\bin\\php\\php-8.3.4-Win32-vs16-x64\\php.exe",
+	"cSpell.allowCompoundWords": true,
+	"editor.fontSize": 14,
+	"dbcode.connections": [],
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+		"*.sqlite": "${capture}.${extname}-*",
+		"*.db": "${capture}.${extname}-*",
+		"*.sqlite3": "${capture}.${extname}-*",
+		"*.db3": "${capture}.${extname}-*",
+		"*.sdb": "${capture}.${extname}-*",
+		"*.s3db": "${capture}.${extname}-*"
+	},
+	"editor.formatOnType": true,
+	"todo-tree.general.showActivityBarBadge": true,
+	"todo-tree.general.statusBar": "current file",
+	"todo-tree.highlights.useColourScheme": true,
+	"github.copilot.enable": {
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"sql": false,
+		"*": false
+	},
+	"chat.instructionsFilesLocations": {
+		".github/instructions": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+		"C:\\Users\\ao\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
+	},
+	"editor.inlineSuggest.showToolbar": "always",
+	"terminal.integrated.fontSize": 17
+}
